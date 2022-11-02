@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Nov 02 09:45:44 ICT 2022</td>
+<td>Started on:</td><td>Wed Nov 02 16:35:25 ICT 2022</td>
 </tr>
-<tr><td>Total time:</td><td>9 seconds (9523 ms)</td>
+<tr><td>Total time:</td><td>17 seconds (17436 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,15 +76,15 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='tests.PracticeFormTest.submitDataSuccessfully()'><b>submitDataSuccessfully</b><br>Test class: tests.PracticeFormTest</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.introjs-skipbutton&quot;}
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//li[@val=&apos;Truy?n&apos;]&quot;}
   (Session info: chrome=106.0.5249.120)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
 System info: host: &apos;PANTHER-TRUYEND&apos;, ip: &apos;192.168.135.149&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a77ba11249e6bcb6215ca5d7fe05d3f4, findElement {using=css selector, value=.introjs-skipbutton}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.120, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\TRUYEN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58429}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58429/devtoo..., se:cdpVersion: 106.0.5249.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a77ba11249e6bcb6215ca5d7fe05d3f4
+Command: [1d704b9c1617ab5c27ff20e5605b6022, findElement {using=xpath, value=//li[@val=&apos;Truy?n&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.120, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\TRUYEN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59009}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59009/devtoo..., se:cdpVersion: 106.0.5249.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1d704b9c1617ab5c27ff20e5605b6022
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -101,8 +101,8 @@ Session ID: a77ba11249e6bcb6215ca5d7fe05d3f4
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
-	at Pages.PageSaleOld.cancel(PageSaleOld.java:28)
-	at tests.PracticeFormTest.submitDataSuccessfully(PracticeFormTest.java:45)
+	at Pages.PageSaleOld.createOrder(PageSaleOld.java:46)
+	at tests.PracticeFormTest.submitDataSuccessfully(PracticeFormTest.java:46)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -131,16 +131,16 @@ Session ID: a77ba11249e6bcb6215ca5d7fe05d3f4
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace887230059", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace887230059'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.introjs-skipbutton&quot;}
+</pre></div><a href='#' onClick='toggleBox("stack-trace885991756", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace885991756'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//li[@val=&apos;Truy?n&apos;]&quot;}
   (Session info: chrome=106.0.5249.120)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
 System info: host: &apos;PANTHER-TRUYEND&apos;, ip: &apos;192.168.135.149&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a77ba11249e6bcb6215ca5d7fe05d3f4, findElement {using=css selector, value=.introjs-skipbutton}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.120, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\TRUYEN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58429}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58429/devtoo..., se:cdpVersion: 106.0.5249.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a77ba11249e6bcb6215ca5d7fe05d3f4
+Command: [1d704b9c1617ab5c27ff20e5605b6022, findElement {using=xpath, value=//li[@val=&apos;Truy?n&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.120, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\TRUYEN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59009}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59009/devtoo..., se:cdpVersion: 106.0.5249.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1d704b9c1617ab5c27ff20e5605b6022
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -157,8 +157,8 @@ Session ID: a77ba11249e6bcb6215ca5d7fe05d3f4
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
-	at Pages.PageSaleOld.cancel(PageSaleOld.java:28)
-	at tests.PracticeFormTest.submitDataSuccessfully(PracticeFormTest.java:45)
+	at Pages.PageSaleOld.createOrder(PageSaleOld.java:46)
+	at tests.PracticeFormTest.submitDataSuccessfully(PracticeFormTest.java:46)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -188,7 +188,7 @@ Session ID: a77ba11249e6bcb6215ca5d7fe05d3f4
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>3</td>
+<td>10</td>
 <td>tests.PracticeFormTest@7205765b</td></tr>
 </table><p>
 </body>

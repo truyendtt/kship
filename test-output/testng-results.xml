@@ -2,38 +2,38 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-02T09:45:44 ICT" name="Default suite" finished-at="2022-11-02T09:45:54 ICT" duration-ms="9523">
+  <suite started-at="2022-11-02T16:35:25 ICT" name="Default suite" finished-at="2022-11-02T16:35:43 ICT" duration-ms="17436">
     <groups>
     </groups>
-    <test started-at="2022-11-02T09:45:44 ICT" name="Default test" finished-at="2022-11-02T09:45:54 ICT" duration-ms="9523">
+    <test started-at="2022-11-02T16:35:25 ICT" name="Default test" finished-at="2022-11-02T16:35:43 ICT" duration-ms="17436">
       <class name="tests.PracticeFormTest">
-        <test-method is-config="true" signature="openWWebsite()[pri:0, instance:tests.PracticeFormTest@7205765b]" started-at="2022-11-02T09:45:44 ICT" name="openWWebsite" finished-at="2022-11-02T09:45:51 ICT" duration-ms="6279" status="PASS">
+        <test-method is-config="true" signature="openWWebsite()[pri:0, instance:tests.PracticeFormTest@7205765b]" started-at="2022-11-02T16:35:25 ICT" name="openWWebsite" finished-at="2022-11-02T16:35:32 ICT" duration-ms="6861" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openWWebsite -->
-        <test-method signature="submitDataSuccessfully()[pri:0, instance:tests.PracticeFormTest@7205765b]" started-at="2022-11-02T09:45:51 ICT" name="submitDataSuccessfully" finished-at="2022-11-02T09:45:54 ICT" duration-ms="3209" status="FAIL">
+        <test-method signature="submitDataSuccessfully()[pri:0, instance:tests.PracticeFormTest@7205765b]" started-at="2022-11-02T16:35:32 ICT" name="submitDataSuccessfully" finished-at="2022-11-02T16:35:43 ICT" duration-ms="10539" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".introjs-skipbutton"}
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//li[@val='Truyền']"}
   (Session info: chrome=106.0.5249.120)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.1.2', revision: '9a5a329c5a'
 System info: host: 'PANTHER-TRUYEND', ip: '192.168.135.149', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a77ba11249e6bcb6215ca5d7fe05d3f4, findElement {using=css selector, value=.introjs-skipbutton}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.120, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\TRUYEN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58429}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58429/devtoo..., se:cdpVersion: 106.0.5249.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a77ba11249e6bcb6215ca5d7fe05d3f4]]>
+Command: [1d704b9c1617ab5c27ff20e5605b6022, findElement {using=xpath, value=//li[@val='Truyền']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.120, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\TRUYEN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59009}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59009/devtoo..., se:cdpVersion: 106.0.5249.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1d704b9c1617ab5c27ff20e5605b6022]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".introjs-skipbutton"}
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//li[@val='Truyền']"}
   (Session info: chrome=106.0.5249.120)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.1.2', revision: '9a5a329c5a'
 System info: host: 'PANTHER-TRUYEND', ip: '192.168.135.149', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a77ba11249e6bcb6215ca5d7fe05d3f4, findElement {using=css selector, value=.introjs-skipbutton}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.120, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\TRUYEN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58429}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58429/devtoo..., se:cdpVersion: 106.0.5249.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a77ba11249e6bcb6215ca5d7fe05d3f4
+Command: [1d704b9c1617ab5c27ff20e5605b6022, findElement {using=xpath, value=//li[@val='Truyền']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.120, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\TRUYEN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59009}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59009/devtoo..., se:cdpVersion: 106.0.5249.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1d704b9c1617ab5c27ff20e5605b6022
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -50,8 +50,8 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
-at Pages.PageSaleOld.cancel(PageSaleOld.java:28)
-at tests.PracticeFormTest.submitDataSuccessfully(PracticeFormTest.java:45)
+at Pages.PageSaleOld.createOrder(PageSaleOld.java:46)
+at tests.PracticeFormTest.submitDataSuccessfully(PracticeFormTest.java:46)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

@@ -1,3 +1,7 @@
 eclipse.preferences.version=1
-encoding//src/main/java/Pages/PageSaleOld.java=UTF-8
-encoding//src/main/java/tests/PracticeFormTest.java=UTF-8
+encoding//src/main/java/Pages/HomePage.java=UTF-8
+encoding//src/main/java/Pages/PageEmployee.java=UTF-8
+encoding//src/main/java/Pages/UpdateEmployeePage.java=UTF-8
+encoding//src/main/java/tests/CreateEmployeeFail.java=UTF-8
+encoding//src/main/java/tests/CreateEmployeeSuccessfully.java=UTF-8
+encoding//src/main/java/tests/UpdateInformationEmployeeSuccessfully.java=UTF-8

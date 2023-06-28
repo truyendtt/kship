@@ -1,27 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="SystemTest">
-		<test name="Run on FireFox">
-			<parameter name="browser" value="firefox">
-			</parameter>
-				<classes>
-					<class name="tests.CheckBoxTest">
-						<methods> 
-							<include name="clickCheckBoxSuccessfully"> 
-							</include>
-						</methods>
-						</class>
-				</classes>
-		</test>
-		<test name="Run on chrome">
-			<parameter name="browser" value="chrome"></parameter>
-				<classes>
-					<class name="tests.CheckBoxTest">
-						<methods> 
-							<include name="clickCheckBoxSuccessfully"> 
-							</include>
-						</methods>
-						</class>
-				</classes>
-		</test>
-</suite>
+	<!-- <test name="Run on FireFox">
+        <parameter name="browser" value="firefox">
+        </parameter>
+            <classes>
+                <class name="tests.CheckBoxTest">
+                    <methods>
+                        <include name="clickCheckBoxSuccessfully">
+                        </include>
+                    </methods>
+                    </class>
+            </classes>
+    </test>-->
+    <test name="Run on chrome">
+        <parameter name="browser" value="chrome"></parameter>
+            <classes>
+                <class name="tests.UpdateInformationEmployeeSuccessfully">
+					<!-- <methods>
+                         <include name="clickCheckBoxSuccessfully">
+                         </include>
+                     </methods>-->
+                     </class>
+             </classes>
+
+     </test>
+ </suite>

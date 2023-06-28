@@ -16,7 +16,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class TestBasic {
 	public WebDriver driver;
-	public  static final String FILE_CONFIG="\\config\\ProjectConfiguration.properties";
+/*	public  static final String FILE_CONFIG="\\config\\ProjectConfiguration.properties";
 	public void openWebsite(String browser) {
 		if (browser.equalsIgnoreCase("firefox")) {
 			System.setProperty("webdriver.gecko.gecko",
@@ -46,15 +46,14 @@ public class TestBasic {
 		}
 		return resultValue;
 	}
-
-//	public void openWebsite(String url) {
-//		System.setProperty("webdriver.chrome.driver",
-//				"C:\\Users\\truyendtt\\Documents\\GitHub\\SeleniumWithMaven_v2\\DemoQA\\driver\\chromedriver.exe");
-//		driver = new ChromeDriver();
-//		driver.get(url);
-//		driver.manage().window().maximize();
-//
-//	}
+*/
+	public void openWebsite(String url) {
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\Users\\truyendtt\\Documents\\GitHub\\SeleniumWithMaven_v2\\DemoQA\\driver\\chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.get(url);
+		driver.manage().window().maximize();
+	}
 	
 	public void closeBrowser() {
 		driver.quit();// close toàn bộ cửa sổ
